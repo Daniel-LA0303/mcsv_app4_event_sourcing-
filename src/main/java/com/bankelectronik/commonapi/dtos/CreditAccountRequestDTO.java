@@ -13,6 +13,6 @@ import lombok.NoArgsConstructor;
 public class CreditAccountRequestDTO {
 
     private String accountId;
-    private double currency;
+    private String currency;
     private double amount;
 }

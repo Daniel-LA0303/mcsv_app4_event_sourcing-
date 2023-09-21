@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class DebitAccountDTO {
+public class DebitAccountRequestDTO {
 
     private String accountId;
     private String currency;
