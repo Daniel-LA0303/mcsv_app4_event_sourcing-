@@ -22,7 +22,7 @@ public class AccountTransaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Instant createdAt;
+    private Instant timestamp;
 
     private double amount;
 
